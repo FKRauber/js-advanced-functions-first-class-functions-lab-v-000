@@ -1,7 +1,8 @@
 // Code your solution in this file!
 
-function returnFirstTwoDrivers(){
-
+const returnFirstTwoDrivers = (function(arrayOfDrivers){
+  return arrayOfDrivers[0];
+  return arrayOfDrivers[1];
 }
 
 function returnLastTwoDrivers(){
