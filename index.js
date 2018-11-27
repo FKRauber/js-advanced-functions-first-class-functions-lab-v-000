@@ -16,13 +16,9 @@ const createFareMultiplier = function (multiplier) {
   };
 };
 
-function fareDoubler(){
+const fareDoubler = createFareMultiplier(2);
 
-}
-
-function fareTripler(){
-
-}
+const fareTripler = createFareMultiplier(3);
 
 function fetchSpecifiedDrivers(arrayOfDrivers, function){
 
