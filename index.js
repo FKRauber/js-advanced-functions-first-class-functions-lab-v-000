@@ -6,13 +6,15 @@ const returnFirstTwoDrivers = function (drivers) {
 
 const returnLastTwoDrivers = function (drivers) {
   return drivers.slice(-2);
-}
+};
 
-const selectingDrivers = [ returnFirstTwoDrivers, returnLastTwoDrivers ]
+const selectingDrivers = [ returnFirstTwoDrivers, returnLastTwoDrivers ];
 
-function createFareMultiplier(){
+const createFareMultiplier = function (multiplier) {
+  return function(value) {
 
-}
+  };
+};
 
 function fareDoubler(){
 
